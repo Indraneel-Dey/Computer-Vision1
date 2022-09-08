@@ -23,13 +23,13 @@ def query(url, headers, filename):
 
 def classify(image):
     url = "https://api-inference.huggingface.co/models/google/vit-base-patch16-224"
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer API KEY"}
     return query(url, headers, image)
 
 
 def identify(image):
     url = "https://api-inference.huggingface.co/models/facebook/detr-resnet-50"
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer API KEY"}
     return query(url, headers, image)
 
 
